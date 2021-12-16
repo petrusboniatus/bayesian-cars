@@ -1,0 +1,14 @@
+name: bayesian-cars
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - jedi
+  - pandas
+  - numpy
+  - seaborn
+  - pip
+  - xarray
+  - pip:
+      - numpyro
